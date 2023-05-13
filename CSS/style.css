@@ -25,7 +25,9 @@ body {
 .card
 {
     /* width: 200px; */
-    height: 350px;;
+    height: 350px;
+    position: relative;
+    top: 0;
     /* border: none; */
     color:aliceblue;
     background-color: transparent;
@@ -41,4 +43,10 @@ body {
 .last-sec .card-text{
     height: 4em;
     overflow: hidden;;
+}
+
+.card:hover {
+    top:-20px;
+    cursor: pointer;
+    transition: top 0.5s;
 }
