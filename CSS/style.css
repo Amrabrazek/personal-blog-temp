@@ -15,12 +15,15 @@ body {
     overflow: hidden;;
 }
 
-.card-text{
+.card-text
+{
     height: 2.7em;
     overflow: hidden;;
 }
 
-.card {
+
+.card
+{
     /* width: 200px; */
     height: 350px;;
     /* border: none; */
@@ -30,4 +33,12 @@ body {
 
 .navbar-custom {
     background-color: transparent;
+}
+
+.last-sec {
+    height:300px;
+}
+.last-sec .card-text{
+    height: 4em;
+    overflow: hidden;;
 }
