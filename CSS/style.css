@@ -10,6 +10,11 @@ body {
     object-fit: contain;
     border-radius: 30px;
 }
+
+.containerofcard{
+    position: relative;
+    left:0px;
+}
 .card-title{
     height: 1.5em;
     overflow: hidden;;
@@ -49,4 +54,19 @@ body {
     top:-20px;
     cursor: pointer;
     transition: top 0.5s;
+}
+
+
+.arrow{
+    transition: transform, 0.5s;
+}
+
+.arrow-left:hover{
+    transform: translateX(-10px);
+    transition: transform, 1s;
+}
+
+.arrow-right:hover{
+    transform: translateX(+10px);
+    transition: transform, 1s;
 }
